@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA870E341D080EF5005E5AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA870E331D080EF5005E5AC1 /* AppDelegate.swift */; };
+		AA870E361D080EF5005E5AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA870E351D080EF5005E5AC1 /* ViewController.swift */; };
+		AA870E391D080EF5005E5AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA870E371D080EF5005E5AC1 /* Main.storyboard */; };
+		AA870E3B1D080EF5005E5AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA870E3A1D080EF5005E5AC1 /* Assets.xcassets */; };
+		AA870E3E1D080EF5005E5AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA870E3C1D080EF5005E5AC1 /* LaunchScreen.storyboard */; };
+		AA870E491D080EF5005E5AC1 /* QR_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA870E481D080EF5005E5AC1 /* QR_ReaderTests.swift */; };
+		AA870E541D080EF5005E5AC1 /* QR_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA870E531D080EF5005E5AC1 /* QR_ReaderUITests.swift */; };
+		AA870E621D080F10005E5AC1 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA870E611D080F10005E5AC1 /* Camera.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA870E451D080EF5005E5AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA870E281D080EF5005E5AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA870E2F1D080EF5005E5AC1;
+			remoteInfo = "QR-Reader";
+		};
+		AA870E501D080EF5005E5AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA870E281D080EF5005E5AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA870E2F1D080EF5005E5AC1;
+			remoteInfo = "QR-Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA870E301D080EF5005E5AC1 /* QR-Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR-Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA870E331D080EF5005E5AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA870E351D080EF5005E5AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA870E381D080EF5005E5AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA870E3A1D080EF5005E5AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA870E3D1D080EF5005E5AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA870E3F1D080EF5005E5AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA870E441D080EF5005E5AC1 /* QR-ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR-ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA870E481D080EF5005E5AC1 /* QR_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_ReaderTests.swift; sourceTree = "<group>"; };
+		AA870E4A1D080EF5005E5AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA870E4F1D080EF5005E5AC1 /* QR-ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR-ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA870E531D080EF5005E5AC1 /* QR_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_ReaderUITests.swift; sourceTree = "<group>"; };
+		AA870E551D080EF5005E5AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA870E611D080F10005E5AC1 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA870E2D1D080EF5005E5AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA870E411D080EF5005E5AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA870E4C1D080EF5005E5AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA870E271D080EF5005E5AC1 = {
+			isa = PBXGroup;
+			children = (
+				AA870E321D080EF5005E5AC1 /* QR-Reader */,
+				AA870E471D080EF5005E5AC1 /* QR-ReaderTests */,
+				AA870E521D080EF5005E5AC1 /* QR-ReaderUITests */,
+				AA870E311D080EF5005E5AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA870E311D080EF5005E5AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA870E301D080EF5005E5AC1 /* QR-Reader.app */,
+				AA870E441D080EF5005E5AC1 /* QR-ReaderTests.xctest */,
+				AA870E4F1D080EF5005E5AC1 /* QR-ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA870E321D080EF5005E5AC1 /* QR-Reader */ = {
+			isa = PBXGroup;
+			children = (
+				AA870E331D080EF5005E5AC1 /* AppDelegate.swift */,
+				AA870E351D080EF5005E5AC1 /* ViewController.swift */,
+				AA870E611D080F10005E5AC1 /* Camera.swift */,
+				AA870E371D080EF5005E5AC1 /* Main.storyboard */,
+				AA870E3A1D080EF5005E5AC1 /* Assets.xcassets */,
+				AA870E3C1D080EF5005E5AC1 /* LaunchScreen.storyboard */,
+				AA870E3F1D080EF5005E5AC1 /* Info.plist */,
+			);
+			path = "QR-Reader";
+			sourceTree = "<group>";
+		};
+		AA870E471D080EF5005E5AC1 /* QR-ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA870E481D080EF5005E5AC1 /* QR_ReaderTests.swift */,
+				AA870E4A1D080EF5005E5AC1 /* Info.plist */,
+			);
+			path = "QR-ReaderTests";
+			sourceTree = "<group>";
+		};
+		AA870E521D080EF5005E5AC1 /* QR-ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA870E531D080EF5005E5AC1 /* QR_ReaderUITests.swift */,
+				AA870E551D080EF5005E5AC1 /* Info.plist */,
+			);
+			path = "QR-ReaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA870E2F1D080EF5005E5AC1 /* QR-Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA870E581D080EF5005E5AC1 /* Build configuration list for PBXNativeTarget "QR-Reader" */;
+			buildPhases = (
+				AA870E2C1D080EF5005E5AC1 /* Sources */,
+				AA870E2D1D080EF5005E5AC1 /* Frameworks */,
+				AA870E2E1D080EF5005E5AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QR-Reader";
+			productName = "QR-Reader";
+			productReference = AA870E301D080EF5005E5AC1 /* QR-Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA870E431D080EF5005E5AC1 /* QR-ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA870E5B1D080EF5005E5AC1 /* Build configuration list for PBXNativeTarget "QR-ReaderTests" */;
+			buildPhases = (
+				AA870E401D080EF5005E5AC1 /* Sources */,
+				AA870E411D080EF5005E5AC1 /* Frameworks */,
+				AA870E421D080EF5005E5AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA870E461D080EF5005E5AC1 /* PBXTargetDependency */,
+			);
+			name = "QR-ReaderTests";
+			productName = "QR-ReaderTests";
+			productReference = AA870E441D080EF5005E5AC1 /* QR-ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA870E4E1D080EF5005E5AC1 /* QR-ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA870E5E1D080EF5005E5AC1 /* Build configuration list for PBXNativeTarget "QR-ReaderUITests" */;
+			buildPhases = (
+				AA870E4B1D080EF5005E5AC1 /* Sources */,
+				AA870E4C1D080EF5005E5AC1 /* Frameworks */,
+				AA870E4D1D080EF5005E5AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA870E511D080EF5005E5AC1 /* PBXTargetDependency */,
+			);
+			name = "QR-ReaderUITests";
+			productName = "QR-ReaderUITests";
+			productReference = AA870E4F1D080EF5005E5AC1 /* QR-ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA870E281D080EF5005E5AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ShoKatsukawa;
+				TargetAttributes = {
+					AA870E2F1D080EF5005E5AC1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AA870E431D080EF5005E5AC1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA870E2F1D080EF5005E5AC1;
+					};
+					AA870E4E1D080EF5005E5AC1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA870E2F1D080EF5005E5AC1;
+					};
+				};
+			};
+			buildConfigurationList = AA870E2B1D080EF5005E5AC1 /* Build configuration list for PBXProject "QR-Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA870E271D080EF5005E5AC1;
+			productRefGroup = AA870E311D080EF5005E5AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA870E2F1D080EF5005E5AC1 /* QR-Reader */,
+				AA870E431D080EF5005E5AC1 /* QR-ReaderTests */,
+				AA870E4E1D080EF5005E5AC1 /* QR-ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA870E2E1D080EF5005E5AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA870E3E1D080EF5005E5AC1 /* LaunchScreen.storyboard in Resources */,
+				AA870E3B1D080EF5005E5AC1 /* Assets.xcassets in Resources */,
+				AA870E391D080EF5005E5AC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA870E421D080EF5005E5AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA870E4D1D080EF5005E5AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA870E2C1D080EF5005E5AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA870E361D080EF5005E5AC1 /* ViewController.swift in Sources */,
+				AA870E341D080EF5005E5AC1 /* AppDelegate.swift in Sources */,
+				AA870E621D080F10005E5AC1 /* Camera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA870E401D080EF5005E5AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA870E491D080EF5005E5AC1 /* QR_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA870E4B1D080EF5005E5AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA870E541D080EF5005E5AC1 /* QR_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA870E461D080EF5005E5AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA870E2F1D080EF5005E5AC1 /* QR-Reader */;
+			targetProxy = AA870E451D080EF5005E5AC1 /* PBXContainerItemProxy */;
+		};
+		AA870E511D080EF5005E5AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA870E2F1D080EF5005E5AC1 /* QR-Reader */;
+			targetProxy = AA870E501D080EF5005E5AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA870E371D080EF5005E5AC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA870E381D080EF5005E5AC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA870E3C1D080EF5005E5AC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA870E3D1D080EF5005E5AC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA870E561D080EF5005E5AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA870E571D080EF5005E5AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA870E591D080EF5005E5AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QR-Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.launchcraft.QR-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA870E5A1D080EF5005E5AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QR-Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.launchcraft.QR-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA870E5C1D080EF5005E5AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QR-ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.launchcraft.QR-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR-Reader.app/QR-Reader";
+			};
+			name = Debug;
+		};
+		AA870E5D1D080EF5005E5AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QR-ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.launchcraft.QR-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR-Reader.app/QR-Reader";
+			};
+			name = Release;
+		};
+		AA870E5F1D080EF5005E5AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QR-ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.launchcraft.QR-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QR-Reader";
+			};
+			name = Debug;
+		};
+		AA870E601D080EF5005E5AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QR-ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.launchcraft.QR-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QR-Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA870E2B1D080EF5005E5AC1 /* Build configuration list for PBXProject "QR-Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA870E561D080EF5005E5AC1 /* Debug */,
+				AA870E571D080EF5005E5AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA870E581D080EF5005E5AC1 /* Build configuration list for PBXNativeTarget "QR-Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA870E591D080EF5005E5AC1 /* Debug */,
+				AA870E5A1D080EF5005E5AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA870E5B1D080EF5005E5AC1 /* Build configuration list for PBXNativeTarget "QR-ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA870E5C1D080EF5005E5AC1 /* Debug */,
+				AA870E5D1D080EF5005E5AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA870E5E1D080EF5005E5AC1 /* Build configuration list for PBXNativeTarget "QR-ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA870E5F1D080EF5005E5AC1 /* Debug */,
+				AA870E601D080EF5005E5AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA870E281D080EF5005E5AC1 /* Project object */;
+}
